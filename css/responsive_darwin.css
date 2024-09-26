@@ -62,4 +62,10 @@
     .footer {
         font-size: 14px; 
     }
+body{
+    overflow-y: auto; 
+        overflow-x: auto; 
+        -webkit-overflow-scrolling: touch; 
+}
+
 }
