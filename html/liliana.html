@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Citas</title>
+    <link rel="stylesheet" href="../css/liliana.css">
+</head>
+
+<body>
+    <header>
+        <h1>Gestión de Citas</h1>
+    </header>
+
+    <section id="appointmentSection">
+        <h2>Gestionar Cita Programada</h2>
+
+        <p>Por favor, elige una opción para tu cita programada:</p>
+
+        <form id="appointmentForm" action="#" method="POST">
+            <label for="appointmentDate">Fecha de la Cita:</label>
+            <input type="date" id="appointmentDate" name="appointmentDate" required>
+
+            <div class="buttonGroup">
+                <button type="submit" class="confirm">Confirmar Cita</button>
+                <button type="submit" class="cancel">Cancelar Cita</button>
+            </div>
+        </form>
+
+        <p id="notificationMessage">*Una notificación será enviada tras realizar tu elección.</p>
+    </section>
+
+    <footer>
+        <p>&copy; Clinica Estetica DR Kevin Maldonado</p>
+    </footer>
+</body>
+
+</html>

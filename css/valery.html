@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuración de Notificaciones</title>
+    <link rel="stylesheet" href="../css/valery.css">
+</head>
+
+<body>
+    <header>
+        <h1> Notificaciones de Cita</h1>
+    </header>
+
+    <section>
+        <form id="notificationForm">
+            <h2>Datos del Usuario</h2>
+
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono">Número de Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <h2>Configuración de Notificaciones</h2>
+
+            <label for="consentimiento">
+                <input type="checkbox" id="consentimiento" name="consentimiento" required>
+                Doy mi consentimiento para recibir notificaciones de recordatorios de citas.
+            </label>
+
+            <label for="fechaCita">Fecha de la Cita:</label>
+            <input type="date" id="fechaCita" name="fechaCita" required>
+
+            <label for="horaCita">Hora de la Cita:</label>
+            <input type="time" id="horaCita" name="horaCita" required>
+
+            <label for="confirmacionCita">
+                <input type="checkbox" id="confirmacionCita" name="confirmacionCita" required>
+                Confirmo mi asistencia a la cita en la fecha y hora seleccionadas.
+            </label>
+
+            <h2>Recordatorio</h2>
+
+            <label for="recordatorio">
+                <input type="checkbox" id="recordatorio" name="recordatorio" required>
+                Activar recordatorio un día antes de la cita.
+            </label>
+
+            <button type="submit">Guardar Configuración</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; Clinica Estetica DR Kevin Maldonado</p>
+    </footer>
+
+    <script>
+        document.getElementById('notificationForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Notificación configurada correctamente. Se enviará un recordatorio un día antes de la cita.');
+        });
+    </script>
+</body>
+
+</html>
