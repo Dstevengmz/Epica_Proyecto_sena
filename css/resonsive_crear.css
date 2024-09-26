@@ -1,0 +1,56 @@
+@media (max-width: 850px) {
+    .sindebar__nav {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 10px;
+    }
+
+    .sindebar__nav a {
+        font-size: 16px; 
+        padding: 10px;
+        text-align: center;
+    }
+
+    
+    .content__main {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .containerprincipal {
+        width: 100%; 
+    }
+
+    .titulo {
+        font-size: 18px; 
+    }
+
+    
+    .left, .right {
+        width: 100%;
+        margin-bottom: 10px; 
+    }
+
+    
+    .boto_nes {
+        flex-direction: column; 
+        gap: 10px; 
+    }
+
+    .btn {
+        width: 100%;
+        font-size: 14px; 
+    }
+
+
+    .footer-container {
+        flex-direction: column; 
+        text-align: center; 
+    }
+
+
+    body {
+        font-size: 14px;
+    }
+}

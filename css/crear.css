@@ -1,0 +1,315 @@
+/* MENU LATERAL CODIGO*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-position: center;
+
+}
+.sindebar__nav{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+
+    top: 0;
+    left: 0;
+    background-color: #000;
+    overflow-x: hidden;
+    padding-top: 20px;
+
+}
+.sindebar__nav a{
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    text-align: justify;
+}
+
+.sindebar__nav a:hover{
+    color: #000;
+    font-weight: 700;
+    background-color: #ebd406;
+    border-radius: 10px;
+
+}
+
+.sindebar__nav i{
+    margin-right: 5px;
+
+}
+
+.content__main{
+    margin-left: 160px;
+    font-size: 22px;
+    padding: 0 10px;
+}
+
+.content__main p{
+    text-align: justify;
+
+}
+
+/* MENU LATERAL CODIGO */
+
+.container2{
+    border: 3px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px; 
+    width: 100%;
+}
+.titulo{
+    text-align: center;
+    align-items: center;
+}
+.container3 {
+    border: 3px solid;
+    display: flex;
+    background-color: gray;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px; 
+    width: 100%;
+}
+
+.main-content {
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.left, .right {
+    width: 45%;
+    padding: 1px;
+}
+
+
+
+.containera {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0;
+}
+
+
+.k1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    
+    padding: 10px; 
+}
+
+
+.boton {
+    background-color: #d2d2d2;
+    width: 50px;
+    height: 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s;
+}
+
+.boton::before {
+    position: absolute;
+    content: '';
+    background-color: #ffffffc3;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 2.5px;
+    transition: 0.2s;
+}
+
+
+input:checked + .boton {
+    background-color: #16ae3a;
+}
+
+input:checked + .boton::before {
+    transform: translateX(25px);
+}
+
+
+input {
+    display: none;
+}
+
+
+
+/* Botones guardar y cancelar procedimiento */
+.boto_nes {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    margin-top: 10px; 
+}
+
+/* Estilos generales para los botones */
+.btn {
+    background-color: #16ae3a; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+
+.btn:hover {
+    background-color: #148d2d; 
+}
+
+
+.btn.cancelar {
+    background-color: #e74c3c;
+}
+
+.btn.cancelar:hover {
+    background-color: #c0392b; 
+}
+
+/*ESTILO PARA LOS BOTONES GUARDAR Y CANCELAR */
+
+.footer {
+    background-color: #333;
+    color: white; 
+    padding: 40px 0; 
+    width: 100%; 
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.footer-nav h3, 
+.footer-contact h3, 
+.footer-social h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #ebd406; 
+}
+
+.footer-nav ul, 
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav ul li,
+.footer-social ul li {
+    margin-bottom: 10px;
+}
+
+.footer-nav ul li a, 
+.footer-social ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.footer-nav ul li a:hover,
+.footer-social ul li a:hover {
+    color: #ebd406; 
+}
+
+
+.footer-contact p {
+    margin: 10px 0;
+}
+
+
+.footer-social ul li i {
+    margin-right: 10px; 
+    color: #ebd406; 
+}
+
+
+.footer-bottom {
+    background-color: #222;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+}
+
+/*BARRA */
+
+.barra {
+    background-color: #333;
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.barra ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.barra ul li {
+    position: relative;
+    width: 100%; 
+}
+
+.barra ul li a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center; 
+}
+
+.barra ul li a:hover {
+    background-color: #575757;
+}
+
+.menu-vertical {
+    display: none;
+    position: relative; 
+    background-color: #333;
+    width: 100%;
+}
+
+.menu-vertical li {
+    width: 100%; 
+}
+
+.menu-vertical li a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-align: center; 
+}
+
+.menu-vertical li a:hover {
+    background-color: #575757;
+}
+
+
+.barra ul li:hover .menu-vertical {
+    display: block;
+}

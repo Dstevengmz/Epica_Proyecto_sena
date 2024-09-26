@@ -1,0 +1,65 @@
+@media (max-width: 729px) {
+    .sindebar__nav {
+        position: relative;
+        width: 100%; 
+        height: auto; 
+        display: flex; 
+        flex-direction: row; 
+        justify-content: space-around; 
+        padding: 10px; 
+        top: 0;
+        left: 0;
+        background-color: #000;
+        z-index: 1000;
+    }
+
+    .sindebar__nav a {
+        font-size: 16px; 
+        padding: 10px 5px; 
+        text-align: center; 
+    }
+
+    .content__main {
+        margin-left: 0; 
+        padding: 10px;
+        width: 100%;
+        overflow-y: auto; 
+    }
+
+    .containerprincipal, .container3 {
+        width: 100%; 
+    }
+
+    .table_section {
+        width: 100%; 
+        max-height: 70vh; 
+        overflow-y: auto; 
+        overflow-x: auto; 
+        -webkit-overflow-scrolling: touch; 
+    }
+
+    .table {
+        min-width: unset; 
+        width: 100%; 
+    }
+
+    .boto_nes {
+        flex-direction: column; 
+        width: 100%; 
+        gap: 10px; 
+    }
+
+    .btn {
+        width: 100%; 
+        font-size: 14px; 
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center; 
+    }
+
+    .footer {
+        font-size: 14px; 
+    }
+}
